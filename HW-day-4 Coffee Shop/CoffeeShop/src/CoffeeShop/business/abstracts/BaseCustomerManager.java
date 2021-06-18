@@ -1,0 +1,14 @@
+package CoffeeShop.business.abstracts;
+
+import CoffeeShop.entities.concretes.Customer;
+
+public abstract class BaseCustomerManager implements CustomerService {
+
+	@Override
+	public  void save(Customer customer) {
+		System.out.println("Veritabanýna eklendi . " + customer.getFirstName());
+	}
+	
+	
+
+}

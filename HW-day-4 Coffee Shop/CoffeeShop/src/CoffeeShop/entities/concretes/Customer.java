@@ -1,0 +1,60 @@
+package CoffeeShop.entities.concretes;
+
+import CoffeeShop.entities.abstracts.Entity;
+import lombok.*;
+
+
+public class Customer implements Entity{
+ 
+	private int id;
+	private String firstName;
+	private String lastName;
+	private int timeOfBirth;
+	private String tcNo;
+	
+	public Customer () {}
+	
+	public Customer(int id, String firstName, String lastName, int timeOfBirth, String tcNo) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.timeOfBirth = timeOfBirth;
+		this.tcNo = tcNo;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public int getTimeOfBirth() {
+		return timeOfBirth;
+	}
+	public void setTimeOfBirth(int timeOfBirth) {
+		this.timeOfBirth = timeOfBirth;
+	}
+	public String getTcNo() {
+		return tcNo;
+	}
+	public void setTcNo(String tcNo) {
+		this.tcNo = tcNo;
+	}
+
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	
+	
+}
