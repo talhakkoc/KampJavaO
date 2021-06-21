@@ -12,6 +12,10 @@ Uygun olmayan E-mail girildiğinde  ;
 
 ![1](https://user-images.githubusercontent.com/34723256/122735472-bdb36280-d287-11eb-8215-26dcb9bed937.png)
 
+Ad veya Soad 6 harften az girildiğinde ; 
+
+![3](https://user-images.githubusercontent.com/34723256/122738106-59de6900-d28a-11eb-9402-d0744a8ae41d.png)
+
 
 Bilgiler düzgün girildiğinde ;
 
