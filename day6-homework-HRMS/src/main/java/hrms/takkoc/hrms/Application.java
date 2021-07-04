@@ -21,7 +21,7 @@ public class Application {
     public Docket api() { 
         return new Docket(DocumentationType.SWAGGER_2)  
           .select()                                  
-          .apis(RequestHandlerSelectors.basePackage("kodlamaio.northwind"))                                      
+          .apis(RequestHandlerSelectors.basePackage("hrms.takkoc.hrms"))                                      
           .build();                                           
     } 
 }
